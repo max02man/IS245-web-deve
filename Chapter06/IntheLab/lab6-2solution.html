@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8">
+<title>Lab 6-2</title>
+<style>
+div		{text-align: center}
+</style>
+</head>
+
+<body>
+<form method="post" action="mailto:ahawsawi1s@semo.edu">
+
+<header>
+<div>
+<img src="music_clef_sm.png" alt="music"/>
+<img src="music_clef_sm.png" alt="music"/>
+<img src="music_clef_sm.png" alt="music"/>
+<img src="music_clef_sm.png" alt="music"/>
+<img src="music_clef_sm.png" alt="music"/>
+
+<h1>Penelope's Music House&reg; Survey</h1>
+<h5>Please complety the survey and click Sumbit when finished</h5>
+</div>
+</header>
+
+<fieldset>
+Last name: <input name="lastname" type="text" /> 
+First name: <input name="firstname" type="text"/> 
+E-mail address: <input name="email" type="text"/>
+<br><br>
+
+Do you currently take musical lessons? 
+<input name="yes" type="radio" value="yes"/>Yes 
+<input name="no" type="radio" value="no"/>No 
+<br><br>
+What instrument do you play?<br>
+<input name="instrument" type="checkbox" value="piano"/>Piano 
+<input name="instrument" type="checkbox" value="violin"/>Violin 
+<input name="instrument" type="checkbox" value="cello"/>Cello 
+<input name="instrument" type="checkbox" value="drums"/>Drums 
+<input name="instrument" type="checkbox" value="opera"/> Opera 
+<input name="instrument" type="checkbox" value="ethnic"/>Ethnic
+<br><br>
+
+How often a week do you practice?<br>
+<select name="practice" multiple="multiple" size="3">
+	<option selected="selected">30 minutes a week</option>
+	<option>30 minutes a day</option>
+	<option>one hour a week</option>
+	<option>one hour a day</option>
+	
+</select>
+<br><br>
+What other instrument would you like to learn?<br>
+<textarea rows="2" cols="60"></textarea>
+</fieldset>
+<br>
+<input type="submit" value="Submit"/>
+<input type="reset" value="Reset"/>
+<br>
+Thank your for your input.
+</form>
+</body>
+</html>
